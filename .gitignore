@@ -1,0 +1,125 @@
+# Keep a very small public surface by default.
+# If you intentionally want to track a file matched below,
+# either add a negation rule here or use `git add -f`.
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.code-workspace
+
+# Temporary / backup files
+~$*
+*.tmp
+*.bak
+*.old
+*.orig
+*.rej
+
+# Logs / generated measurement files
+DATELOG*.TXT
+DATELOG*.txt
+*.log
+*.out
+
+# Archives and packages
+*.7z
+*.zip
+*.rar
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# Office and document files
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.xlsm
+*.ppt
+*.pptx
+
+# Images / video / audio
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.heic
+*.webp
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.mkv
+*.webm
+*.mp3
+*.wav
+
+# CAD / CAM / analysis artifacts
+*.SLDPRT
+*.SLDASM
+*.SLDDRW
+*.sldprt
+*.sldasm
+*.slddrw
+*.sldprt~
+*.sldasm~
+*.slddrw~
+*.CWR
+*.cwr
+*.DXF
+*.dxf
+*.STL
+*.stl
+*.STEP
+*.step
+*.STP
+*.stp
+*.IGS
+*.igs
+*.IGES
+*.iges
+swxJRNL.swj
+
+# Executables / binary tools
+*.exe
+*.dll
+*.msi
+
+# High-risk names often tied to personal or submission data
+*学生証*
+*名簿*
+*申請書*
+*提出用*
+*提出書類*
+*誓約書*
+*承諾書*
+*保険*
+*連絡先*
+
+# Existing large archival directories in this repository
+/EcoRun ~2021/
+/Ecorun 2022/
+/Ene-1 ~2021/
+/mosaic/
+/エコランまとめ/
+/引継ぎ資料まとめ秋元/
+
+# Core repo files to keep trackable
+!.gitignore
+!README.md
+!docs/
+!docs/images/
+!docs/images/**
